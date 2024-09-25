@@ -6,9 +6,12 @@
 (source (github CraigFe/ocaml-rusage))
 (maintainers "Craig Ferguson <me@craigfe.io>")
 (authors "Zach Shipko")
+(license MIT)
 
 (package
  (name rusage)
  (synopsis "Bindings to the GETRUSAGE(2) syscall")
  (description "Bindings to the GETRUSAGE(2) syscall")
- (documentation https://CraigFe.github.io/ocaml-rusage/))
+ (documentation https://CraigFe.github.io/ocaml-rusage/)
+ (depends
+  ocaml))
